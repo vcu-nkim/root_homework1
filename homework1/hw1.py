@@ -19,7 +19,7 @@ def return_lowercased_string(input_string):
     """You have a variable called input_string that is of type string.
     Return it but the lowercase version of it."""
 
-    return_value = return_lowercased_string("HI THERE MOM") == "hi there mom"
+    return_value = return_lowercased_string("HOW ARE YOU") == "how are you"
     return return_value
 
 
