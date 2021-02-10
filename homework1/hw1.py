@@ -19,8 +19,10 @@ def return_lowercased_string(input_string):
     """You have a variable called input_string that is of type string.
     Return it but the lowercase version of it."""
 
-    return_value = 'input_string'
-    return return_value
+    assert hw1.return_lowercased_string("INPUT_STRING") == "input_string"
+       AssertionError: assert 'INPUT_STRING' == 'input_string'
+         - input_string
+         + input_string
 
 
 def return_without_starting_ending_whitespace(input_string):
