@@ -19,7 +19,7 @@ def return_lowercased_string(input_string):
     """You have a variable called input_string that is of type string.
     Return it but the lowercase version of it."""
 
-    return_lowercased_string("INPUT_STRING") == "input_string
+    return_lowercased_string("HELLO WASSUP") == "hello wassup"
 
 
 def return_without_starting_ending_whitespace(input_string):
