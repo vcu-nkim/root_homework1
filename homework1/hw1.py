@@ -27,12 +27,22 @@ def return_without_starting_ending_whitespace(input_string):
     """You have a variable called input_string that is of type string.
     Return it but with the surrounding (left and right) whitespace stripped."""
 
-    return_value = input_string
-    return return_value
-
+    string = "      INPUT_STRING        "
+    print(string)
+    string.strip()
+    print(string.strip())
+    
+    
 def return_addition(first_number, second_number):
     """ Return the two numbers added together. """
 
-   return_value = input_string
-   return return_value
+    num1 = input( 'Enter first number: ')
+    num2 = input( 'Enter second number: ')
+
+    sum = float(num1) + float(num2)
+
+    print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
+
+   
+   
     
