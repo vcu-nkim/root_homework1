@@ -21,7 +21,7 @@ def return_lowercased_string(input_string):
 
     string = "INPUT_STRING"
     print(string.lower())
-
+    return return_lowercased_string
 
 def return_without_starting_ending_whitespace(input_string):
     """You have a variable called input_string that is of type string.
@@ -31,7 +31,7 @@ def return_without_starting_ending_whitespace(input_string):
     print(string)
     string.strip()
     print(string.strip())
-    
+    return strip
     
 def return_addition(first_number, second_number):
     """ Return the two numbers added together. """
@@ -42,7 +42,7 @@ def return_addition(first_number, second_number):
     sum = float(num1) + float(num2)
 
     print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
-
+    return addition
    
    
     
