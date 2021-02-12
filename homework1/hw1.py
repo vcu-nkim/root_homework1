@@ -19,16 +19,17 @@ def return_lowercased_string(input_string):
     """You have a variable called input_string that is of type string.
     Return it but the lowercase version of it."""
 
-    return 'INPUT_STRING'
-    print (return_lowercased_string(input_string)
+    string = 'INPUT_STRING'
+    return(string.lower())
+    
 
 
 def return_without_starting_ending_whitespace(input_string):
     """You have a variable called input_string that is of type string.
     Return it but with the surrounding (left and right) whitespace stripped."""
 
-    return "        input_string        "
-    print (return_without_starting_ending_whitespace(input_string))
+    string = '      input_string        '
+    return(string.strip())
 
 
 def return_addition(first_number, second_number):
