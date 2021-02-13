@@ -20,7 +20,8 @@ def return_lowercased_string(input_string):
     Return it but the lowercase version of it."""
 
     
-    return input_string.lower()
+    string = input_string.lower()
+    return string
     
 
 
