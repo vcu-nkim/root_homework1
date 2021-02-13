@@ -1,12 +1,10 @@
 """ This set of functions should return the appropriate data type"""
 
-
 def return_number_3():
     """ This function should return an integer with the value of 3"""
 
     return_value = 3
     return return_value
-
 
 def return_string_vcu():
     """ This function should return a string with the lowercase value of vcu"""
@@ -14,16 +12,12 @@ def return_string_vcu():
     return_value = 'vcu'
     return return_value
 
-
 def return_lowercased_string(input_string):
     """You have a variable called input_string that is of type string.
     Return it but the lowercase version of it."""
 
-    
     string = input_string.lower()
-    return string
-    
-
+    return string 
 
 def return_without_starting_ending_whitespace(input_string):
     """You have a variable called input_string that is of type string.
@@ -32,14 +26,8 @@ def return_without_starting_ending_whitespace(input_string):
     string = input_string.strip()
     return string
 
-
 def return_addition(first_number, second_number):
     """ Return the two numbers added together. """
 
     sum = first_number + second_number
     return sum
-
-    
-   
-   
-    
