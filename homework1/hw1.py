@@ -19,8 +19,8 @@ def return_lowercased_string(input_string):
     """You have a variable called input_string that is of type string.
     Return it but the lowercase version of it."""
 
-    string = 'INPUT_STRING'
-    return(string.lower())
+    
+    return input_string.lower()
     
 
 
