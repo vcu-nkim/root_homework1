@@ -29,8 +29,8 @@ def return_without_starting_ending_whitespace(input_string):
     """You have a variable called input_string that is of type string.
     Return it but with the surrounding (left and right) whitespace stripped."""
 
-   string = input_string.strip()
-   return string
+    string = input_string.strip()
+    return string
 
 
 def return_addition(first_number, second_number):
